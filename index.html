@@ -114,14 +114,41 @@
         <div></div>
       </div>
       <div class="row d-flex align-items-center justify-content-center">
-        <form class="col-lg-4 col-md-6">
-          <input type="email" placeholder="your email..." required />
+        <form
+          class="col-lg-4 col-md-6"
+          action="https://gmail.us18.list-manage.com/subscribe/post?u=a95eeb9b691025f148000782a&amp;id=5b8b9deeda"
+          method="post"
+          id="mc-embedded-subscribe-form"
+          name="mc-embedded-subscribe-form"
+          class="validate"
+          target="_blank"
+          novalidate
+        >
+          <input
+            type="email"
+            name="EMAIL"
+            id="mce-EMAIL"
+            placeholder="your email..."
+            required
+          />
           <div class="formUserType">
-            <input type="radio" name="user-type" value="dreamer" checked />I'm a
-            dreamer <input type="radio" name="user-type" value="mentor" />I'm a
-            Mentor
+            <input
+              type="radio"
+              name="MMERGE1"
+              id="mce-MMERGE1-0"
+              value="I'm a dreamer"
+              checked
+            />I'm a dreamer
+            <input
+              type="radio"
+              name="MMERGE1"
+              id="mce-MMERGE1-1"
+              value="I'm a mentor"
+            />I'm a Mentor
           </div>
-          <button class="mt-3">Join</button>
+          <button class="mt-3" name="subscribe" id="mc-embedded-subscribe">
+            Join
+          </button>
         </form>
       </div>
     </div>
@@ -131,5 +158,17 @@
     <div class="section bg-dark text-white d-flex justify-content-center">
       &copy 2020 All rights reserved | Elpis Academy
     </div>
+    <!-- ==========
+        FIREBASE
+    ========== -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/7.14.5/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/7.14.5/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
   </body>
 </html>
